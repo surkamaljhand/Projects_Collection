@@ -1,0 +1,44 @@
+Test Cases for Music Generation with Genetic Algorithm
+This file contains a list of test cases designed to validate and evaluate the functionality of the music generation program using a genetic algorithm. To use these test cases, modify the parameters in the MelodyGeneticComposer.py script according to the given values and observe the resulting MIDI output.
+
+Test Case 1: Basic Functionality
+Population Size: 20
+Number of Generations: 50
+Crossover Rate: 0.7
+Mutation Rate: 0.1
+Expected Outcome: The program should generate a MIDI file with a simple melody. This test case validates that the program works as intended with default parameters.
+
+Test Case 2: Large Population Size
+Population Size: 100
+Number of Generations: 50
+Crossover Rate: 0.7
+Mutation Rate: 0.1
+Expected Outcome: The program should generate a MIDI file with a more complex and diverse melody, as a larger population size should allow for more variation in the genetic material.
+
+Test Case 3: High Mutation Rate
+Population Size: 20
+Number of Generations: 50
+Crossover Rate: 0.7
+Mutation Rate: 0.5
+Expected Outcome: The program should generate a MIDI file with a less structured melody, as a high mutation rate may introduce more randomness into the genetic material.
+
+Test Case 4: High Crossover Rate
+Population Size: 20
+Number of Generations: 50
+Crossover Rate: 0.9
+Mutation Rate: 0.1
+Expected Outcome: The program should generate a MIDI file with a more cohesive melody, as a high crossover rate should promote the combination of high-quality genetic material from multiple individuals.
+
+Test Case 5: Low Mutation and Crossover Rates
+Population Size: 20
+Number of Generations: 50
+Crossover Rate: 0.3
+Mutation Rate: 0.01
+Expected Outcome: The program should generate a MIDI file with a simple and repetitive melody, as low mutation and crossover rates may result in less variation and exploration of the search space.
+
+Test Case 6: Different Note Mapping
+Modify the note mapping in the music_generation.py script to use a different set of notes or scales.
+
+Expected Outcome: The program should generate a MIDI file with a melody that has a different tonality and harmony based on the new note mapping.
+
+Remember to modify the parameters in the MelodyGeneticComposer.py script according to the values provided in each test case. You may also create additional test cases by experimenting with different parameter combinations, fitness functions, and note mappings.
